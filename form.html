@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+	<script src="formvalidation.js"></script>
+	<title>Form Validation</title>
+</head>
+<body>
+		<br>
+
+		<label for="fanme" class="font-weight-bold"> First Name: </label>
+		<input type="text" name="fname" id="fname" onblur="Fname()">
+
+	
+		<label for="lanme" class="font-weight-bold"> Last Name: </label>
+		<input type="text" name="lname" id="lname" onblur="Lname()">
+	
+<br>
+<br>
+
+		<label for="phone" class="font-weight-bold"> Phone Number: </label>
+		<input type="Number" name="phone" id="phone" onblur="Phone()">
+	
+		<label for="nid" class="font-weight-bold"> NID No: </label>
+		<input type="Number" name="nid" id="nid" onblur="Nid()">
+	
+<br>
+<br>
+ 
+		<label for="division" class="font-weight-bold"> Division: </label>
+		<input type="text" name="division" id="division" onblur="Division()">
+	
+		<label for="zila" class="font-weight-bold"> Zila: </label>
+		<input type="text" name="zila" id="zila" onblur="Zila()">
+	
+<br>
+<br>
+ 
+		<label for="upazila" class="font-weight-bold"> Upazila: </label>
+		<input type="text" name="upazila" id="upazila" onblur="Upazila()">
+	
+		<label for="zip" class="font-weight-bold"> Zip Code: </label>
+		<input type="number" name="zip" id="zip" onblur="Zip()">
+	
+<br>
+<br>
+
+		<label for="email" class="font-weight-bold"> Email: </label>
+		<input type="email" name="email" id="email" onblur="Email()">
+	
+		<label for="password" class="font-weight-bold"> Password: </label>
+		<input type="password" name="password" id="password" onblur="Password()">
+	
+<br>
+<br>
+<input type="submit" name="submit" value="submit" id="submit" onclick="Submit()">
+<p id="text"></p>
+
+</body>
+</html>
